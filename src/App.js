@@ -7,7 +7,6 @@ import hand from './images/hand.png';
 function App() {
   return (
     <div className="aplicacion-tareas">
-      <h2 className='text-1'>Se te olvidan tus pendientes?</h2>
       <div className='meme-contenedor'>
         <img
         src={meme}
@@ -15,7 +14,6 @@ function App() {
         alt='mememe' 
         />
       </div>
-      <h2 className='text-2'>Crea una lista de tareas</h2>
       <div className='hand-contenedor'>
         <img 
         src={hand} 
